@@ -1,0 +1,43 @@
+<!--This project is to create a login page using html and css, the page will not store any information, just a hardcoded page. - Ruben Nunez Chavez-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Login to Roosite</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css"><!--link to css file-->
+</head>
+
+<body>
+    
+    <div class="wrap">
+        <form action="">
+            <h1>Login</h1>
+            <div class="input-box"> <!--This will give us the box for the username-->
+                <input type="text" placeholder="Username" required>
+                <i class='bx bx-user'></i><!--Used a user icon from Boxicons-->
+            </div>
+
+            <div class="input-box"><!--This will give us the box for the password-->
+                <input type="password" placeholder="Password" required>
+                <i class='bx bx-lock' ></i><!--lock icon from Boxicons-->
+            </div>
+
+            <div class="rem-forgot"><!--This will give us the box to check to remember username-->
+                <label><input type="checkbox"> Remember Me</label>
+                <a href="#"> Forgot Password? </a><!--prompt incase user forgets password-->
+            </div>
+
+            <button type="submit" class="btn">Login</button><!--log in button-->
+
+            <div class="register"><!--Register for a new user-->
+                <p>Don't have an account? <a href="#">Register</a></p>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
